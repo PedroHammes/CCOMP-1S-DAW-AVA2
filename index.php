@@ -13,6 +13,6 @@
         <a href="./news.php">Novidades</a>
         <a href="./contact.php">Contato</a>
     </nav>
-    <h1>Empresa XYZ</h1>
+    <h1>Livraria da Avenida</h1>
 </body>
 </html>
