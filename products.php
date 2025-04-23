@@ -14,5 +14,22 @@
         <a href="./contact.php">Contato</a>
     </nav>
     <h1>Produtos</h1>
+
+    <?php
+    // Inclui a conexão com o banco de dados
+    include 'config.php';
+
+    // Consulta o DB para pegar os produtos
+    $query = "SELECT * FROM products";
+    $stmt = $pdo->query($query);
+
+    // Exibe os produtos:
+    while ($produto = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        echo "<div>";
+        echo "<h3>" . htmlspecialchars($produto['name']) . "</h3>";
+        echo "<p> R$" . htmlspecialchars($produto['price']) . "</p>";
+        echo "</div>";
+    }
+    ?>
 </body>
 </html>
