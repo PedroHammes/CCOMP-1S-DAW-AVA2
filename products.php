@@ -29,19 +29,21 @@
             Se existirem, para cada produto ele criará uma div com:
             título, subtítulo, preço e estoque
          -->
-        <div>
+        <section>
             <?php while($book = $query->fetch_assoc()): ?>
-            <h2>
-                <?php echo $book['title']?> - <?php echo $book['subtitle']?>
-            </h2>
-            <p>
-                R$ <?php echo number_format($book['price'], 2, ',', '.') ?>
-            </p>
-            <p>
-                Estoque: <?php echo $book['in_stock'] ?>
-            </p>
+            <div>
+                <h2>
+                    <?php echo $book['title']?> - <?php echo $book['subtitle']?>
+                </h2>
+                <p>
+                    R$ <?php echo number_format($book['price'], 2, ',', '.') ?>
+                </p>
+                <p>
+                    Estoque: <?php echo $book['in_stock'] ?>
+                </p>
+            </div>
             <?php endwhile; ?>
-        </div>
+        </section>
 
         <!-- 
             Se não houver registros apenas cria um parágrafo informando que 
