@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="./navbarcontrol.js"></script>
 </head>
 <body>
     <nav>

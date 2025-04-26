@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>produtos</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="./navbarcontrol.js"></script>
 </head>
 <body>
     <nav>
@@ -30,13 +31,13 @@
             Se existirem, para cada produto ele criará uma div com:
             título, subtítulo, preço e estoque
          -->
-        <section>
+        <section class="products">
             <?php while($book = $query->fetch_assoc()): ?>
-            <div>
+            <div class="card">
                 <h2>
                     <?php echo $book['title']?> - <?php echo $book['subtitle']?>
                 </h2>
-                <p>
+                <p class="price">
                     R$ <?php echo number_format($book['price'], 2, ',', '.') ?>
                 </p>
                 <p>

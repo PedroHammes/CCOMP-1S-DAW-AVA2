@@ -18,6 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novidades</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="./navbarcontrol.js"></script>
 </head>
 <body>
     <nav>
@@ -29,6 +30,8 @@
     </nav>
     <h1>Novidades</h1>
 
+
+    <div class="news">
     <!--
         Usa notação de seta (->) para acessar a propriedade do número de linhas
             de $query. Este número indica a quantidade de registros retornados do DB
@@ -40,7 +43,7 @@
          <?php
          while($new = $query->fetch_assoc()) :
          ?>
-            <div>
+            <div class="new">
                 <h2>
                     <?php echo $new['title']?>
                 </h2>
@@ -48,7 +51,7 @@
                     <?php echo $new['news_description']?>
                 </p>
                 <p>
-                    <?php echo $new['expected_date']?>
+                    Data prevista: <?php echo $new['expected_date']?>
                 </p>
             </div>
          <?php endwhile ?>
@@ -62,5 +65,6 @@
         Quando a página for recarregada a conexão é aberta novamente.
     -->
     <?php $conn->close(); ?>
+    </div>
 </body>
 </html>
