@@ -1,37 +1,120 @@
-# Livraria da Avenida 📚
+# CCOMP-1S-DAW-AVA2 - Livraria da Avenida
+## 📚 Sobre o Projeto
+Este é um projeto acadêmico avaliativo desenvolvido para a disciplina de Desenvolvimento de Aplicações Web do curso de Ciência da Computação.
+O objetivo do projeto é simular um site institucional de uma empresa fictícia, com páginas públicas de navegação e integração com banco de dados.
 
-Projeto desenvolvido em PHP com MySQL.
+## 🎯 Funcionalidades
+Navegação entre páginas (Início, Sobre, Produtos, Novidades, Contato).
 
-## 🚀 Como rodar o projeto
+Cadastro e listagem dinâmica de produtos usando banco de dados MySQL.
 
-### 1. Clonar o repositório
+Estilização personalizada utilizando CSS puro.
 
-```bash
-git clone https://github.com/PedroHammes/CCOMP-1S-DAW-AVA2
-cd CCOMP-1S-DAW-AVA2
+Estruturação de páginas em PHP, integrando front-end e back-end.
+
+## 🚀 Tecnologias Utilizadas
+PHP 8
+
+MySQL 8
+
+HTML5 / CSS3
+
+XAMPP (pacote PHP + MySQL + phpMyAdmin)
+
+phpMyAdmin para gerenciamento do banco de dados.
+
+## 🛠️ Como instalar e rodar o projeto localmente
+Siga os passos abaixo com atenção para configurar o ambiente corretamente:
+
+### 1. Instalar o XAMPP
+Baixe e instale o XAMPP: Download XAMPP
+
+Durante a instalação, certifique-se de selecionar o Apache e o MySQL.
+
+### 2. Configurar o php.ini (caso necessário)
+Se o XAMPP não ativar o MySQL automaticamente ou se o PHP der erro com extensões, siga:
+
+No XAMPP, clique em Config (do módulo Apache) e selecione php.ini.
+
+Dentro do arquivo php.ini, descomente (removendo o ; no início) as seguintes linhas:
+
+```
+extension=mysqli
+extension=pdo_mysql
 ```
 
-### 2. Importar o banco de dados
+Salve e feche o arquivo.
 
-1. Acesse o seu painel do phpMyAdmin (ex: http://localhost/phpmyadmin)
-2. Crie um banco de dados chamado livraria_da_avenida
-3. Importe o arquivo database/livraria_da_avenida.sql do projeto no seu phpMyAdmin
+Reinicie o Apache no XAMPP.
 
-> Talvez seja necessário instalar o XAMPP primeiro, se for o caso faça o download [aqui](https://www.apachefriends.org/pt_br/index.html)
+### 3. Subir o Apache e o MySQL
+Abra o XAMPP Control Panel.
 
+Clique em Start para o Apache.
 
-### 3. Confiuração de ambiente
+Clique em Start para o MySQL.
 
-Edite o arquivo database/connection.php com suas credenciais do MySQL:
-```
-$host = 'localhost';
-$usuario = 'root';
-$senha = ''; (ou 'sua_senha')
-$banco = 'livraria_da_avenida';
-```
+Certifique-se de que as portas 80 (Apache) e 3306 (MySQL) estejam livres.
+
+### 4. Clonar o repositório do projeto
+Abra o terminal/cmd e rode:
 
 
-### 4. Rodar o projeto
+````git clone https://github.com/PedroHammes/CCOMP-1S-DAW-AVA2.git
+````
+Ou baixe o ZIP do repositório e extraia.
 
-1. Inicie o XAMPP (Apache e MySQL)
-2. Acesse o projeto no navegador via http://localhost/DAW-AVA2
+### 5. Mover o projeto para o diretório do servidor
+Copie a pasta do projeto para o diretório htdocs do XAMPP.
+
+Normalmente o caminho é: C:\xampp\htdocs
+
+Exemplo:
+
+````C:\xampp\htdocs\CCOMP-1S-DAW-AVA2````
+
+### 6. Importar o banco de dados
+Acesse o navegador e entre no endereço:
+
+````http://localhost/phpmyadmin````
+
+Clique em Importar.
+
+Selecione o arquivo books.sql localizado na pasta:
+
+````/DATABASE/books.sql````
+
+Clique em Executar para importar o banco de dados.
+
+Isso criará a estrutura de tabelas necessária para o projeto funcionar.
+
+### 7. Rodar o projeto
+Agora, basta acessar no navegador:
+
+````http://localhost/CCOMP-1S-DAW-AVA2/````
+
+A página inicial do projeto será carregada!
+
+## 📂 Estrutura de Pastas
+bash
+Copiar código
+/DATABASE          # Script SQL do banco de dados
+/css               # Estilos CSS
+/img               # Imagens usadas no site
+/pages             # Páginas adicionais (sobre, produtos, etc.)
+index.php          # Página inicial
+## ℹ️ Observações Importantes
+Verifique se o Apache e MySQL estão ativos sempre que quiser rodar o projeto.
+
+Se alterar a estrutura do banco de dados, lembre-se de atualizar o script /DATABASE/books.sql.
+
+Se tiver problemas com o PHP ou MySQL, reiniciar o XAMPP geralmente resolve.
+
+## ✨ Autores
+Pedro Hammes [LinkedIn](https://www.linkedin.com/in/pedrohammes/) | [GitHub](https://github.com/PedroHammes)
+
+Beatriz Reis Linkedin | GitHub
+
+Jonas Tavares Linkedin | GitHub
+
+Letícia Linkedin | GitHub
