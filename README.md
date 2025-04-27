@@ -59,7 +59,8 @@ Certifique-se de que as portas 80 (Apache) e 3306 (MySQL) estejam livres.
 ### 4. Clonar o repositório do projeto
 Abra o terminal/cmd e rode:
 
-```git clone https://github.com/PedroHammes/CCOMP-1S-DAW-AVA2.git
+```
+git clone https://github.com/PedroHammes/CCOMP-1S-DAW-AVA2.git
 ```
 Ou baixe o ZIP do repositório e extraia.
 
