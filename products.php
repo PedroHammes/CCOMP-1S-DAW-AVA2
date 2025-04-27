@@ -23,37 +23,38 @@
         <a href="./news.php">Novidades</a>
         <a href="./contact.php">Contato</a>
     </nav>
-    <h1>Produtos</h1>
 
-    <!-- A condicional abaixo verifica se há registros no banco de dados -->
-    <?php if ($query->num_rows > 0): ?>
-        <!-- 
-            Se existirem, para cada produto ele criará uma div com:
-            título, subtítulo, preço e estoque
-         -->
-        <section class="products">
-            <?php while($book = $query->fetch_assoc()): ?>
-            <div class="card">
-                <h2>
-                    <?php echo $book['title']?> - <?php echo $book['subtitle']?>
-                </h2>
-                <p class="price">
-                    R$ <?php echo number_format($book['price'], 2, ',', '.') ?>
-                </p>
-                <p>
-                    Estoque: <?php echo $book['in_stock'] ?>
-                </p>
-            </div>
-            <?php endwhile; ?>
-        </section>
-
-        <!-- 
-            Se não houver registros apenas cria um parágrafo informando que 
-            não há registros no BD
-        -->
-    <?php else: ?>
-        <p>Nenhum produto encontrado.</p>
-    <?php endif; ?>
+    <main>
+        <h1>Produtos</h1>
+        <!-- A condicional abaixo verifica se há registros no banco de dados -->
+        <?php if ($query->num_rows > 0): ?>
+            <!-- 
+                Se existirem, para cada produto ele criará uma div com:
+                título, subtítulo, preço e estoque
+            -->
+            <section class="products">
+                <?php while($book = $query->fetch_assoc()): ?>
+                <div class="card">
+                    <h2>
+                        <?php echo $book['title']?> - <?php echo $book['subtitle']?>
+                    </h2>
+                    <p class="price">
+                        R$ <?php echo number_format($book['price'], 2, ',', '.') ?>
+                    </p>
+                    <p>
+                        Estoque: <?php echo $book['in_stock'] ?>
+                    </p>
+                </div>
+                <?php endwhile; ?>
+            </section>
+            <!-- 
+                Se não houver registros apenas cria um parágrafo informando que 
+                não há registros no BD
+            -->
+        <?php else: ?>
+            <p>Nenhum produto encontrado.</p>
+        <?php endif; ?>
+    </main>
 
     <?php $conn->close(); ?>
 </body>

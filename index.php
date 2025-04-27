@@ -19,7 +19,7 @@
 
     <main>
         <h1>Livraria da Avenida</h1>
-        <img src="./style/assets/library.jpg" alt="">
+        <img src="./style/assets/ugur-akdemir-wBhsiYCkSIs-unsplash.jpg" alt="foto-da-livraria">
         <h2>Bem-vindo ao seu novo universo literário!</h2>
         <p>
             Aqui, cada prateleira é um convite para viajar sem sair do lugar. Dos clássicos que marcaram gerações aos lançamentos que estão conquistando o mundo, temos histórias para emocionar, ensinar e transformar.
