@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 18px;
     --white: #F1F1F1;
     --black: #202020;
     --gray_1: #969696;
@@ -50,7 +51,6 @@ nav {
 nav a {
     color: var(--black);
     text-decoration: none;
-    font-size: 18px;
     font-weight: 600;
 
     width: 120px;
@@ -80,20 +80,28 @@ nav a:hover {
     border: 2px solid var(--yellow);
 }
 
-/* Header */
-.header {
-    background-color: #FDD900;
-    color: #000000;
-    padding: 20px;
+main {
+    max-width: 1000px;
+    margin: auto;
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
 }
 
-.header h1 {
-    font-family: 'Frutiger Ultra Black', 'Arial Black', 'Arial', sans-serif;
-    font-size: 2rem;
+h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 16px 0px 10px 0px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 
@@ -136,7 +144,7 @@ nav a:hover {
 }
 
 .card p {
-    font-size: 18px;
+    
     margin: 18px;
 }
 
@@ -238,7 +246,7 @@ nav a:hover {
 }
 
 .new p {
-    font-size: 18px;
+    
     margin: 18px;
 }
 
@@ -266,7 +274,7 @@ form {
 }
 
 label {
-    font-size: 18px;
+    
 }
 
 input {
@@ -282,7 +290,7 @@ textarea {
 }
 
 button {
-    font-size: 18px;
+    
     width: 100px;
     background-color: var(--yellow_3);
     border: 2px solid var(--yellow);

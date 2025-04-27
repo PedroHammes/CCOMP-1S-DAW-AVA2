@@ -15,14 +15,23 @@
         <a href="./news.php">Novidades</a>
         <a href="./contact.php">Contato</a>
     </nav>
-    <h1>Livraria da Avenida</h1>
 
-    <section id="home">
-        <div id="home-picture"></div>
-        Bem-vindo à Livraria da Avenida
-    Explore um mundo de histórias, conhecimento e inspiração. Aqui, cada livro é uma nova jornada à sua espera. Navegue por nossas categorias e descubra obras incríveis para todos os gostos — dos clássicos da literatura aos lançamentos mais recentes.
 
-    Seu próximo livro favorito está a apenas alguns cliques de distância!
-    </section>
+    <main>
+        <h1>Livraria da Avenida</h1>
+        <img src="./style/assets/library.jpg" alt="">
+        <h2>Bem-vindo ao seu novo universo literário!</h2>
+        <p>
+            Aqui, cada prateleira é um convite para viajar sem sair do lugar. Dos clássicos que marcaram gerações aos lançamentos que estão conquistando o mundo, temos histórias para emocionar, ensinar e transformar.
+
+            Muito mais que livros: experiências.
+        </p>
+        <p>
+            Navegue pelo nosso catálogo, aproveite nossas ofertas especiais e encontre aquela leitura perfeita para cada momento da sua vida.
+
+            Seu próximo livro inesquecível está a apenas alguns cliques de distância. Bora explorar?
+        </p>
+
+    </main>
 </body>
 </html>
