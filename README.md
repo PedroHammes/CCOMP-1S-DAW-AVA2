@@ -113,8 +113,8 @@ Se tiver problemas com o PHP ou MySQL, reiniciar o XAMPP geralmente resolve.
 ## ✨ Autores
 Pedro Hammes [LinkedIn](https://www.linkedin.com/in/pedrohammes/) | [GitHub](https://github.com/PedroHammes)
 
-Beatriz Reis Linkedin | GitHub
+Beatriz Reis [Linkedin](https://www.linkedin.com/in/beatriz-reis-6ba79b236/) | [GitHub](https://github.com/beatrizdosreisb)
 
-Jonas Tavares Linkedin | GitHub
+Jonas Tavares [Linkedin](https://www.linkedin.com/in/jonas-tavares-984315160/) | [GitHub](https://github.com/Tavarius98)
 
-Letícia Linkedin | GitHub
+Letícia [Linkedin](https://www.linkedin.com/in/leticia-daniella-braga-a233692a6/) | [GitHub](https://github.com/leticiadaniellabraga)
