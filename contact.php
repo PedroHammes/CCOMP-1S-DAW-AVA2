@@ -55,6 +55,42 @@
 
                 <tbody>
                     <tr>
+                        <td class="table-contact">Beatriz Reis</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521980181397" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://www.linkedin.com/in/beatriz-reis-6ba79b236/" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://github.com/beatrizdosreisb" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-contact">Jonas Tavares</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521974571187" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://www.linkedin.com/in/jonas-tavares-984315160/" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://github.com/Tavarius98" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-contact">Letícia Braga</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521986956514" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://www.linkedin.com/in/leticia-daniella-braga-a233692a6/" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://github.com/leticiadaniellabraga" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                    <tr>
                         <td class="table-contact">Pedro Hammes</td>
                         <td class="table-link">
                             <a href="https://wa.me/5521984540717" target="_blank">Mensagem</a>
@@ -64,42 +100,6 @@
                         </td>
                         <td class="table-link">
                             <a href="https://github.com/PedroHammes" target="_blank">mais projetos</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-contact">Beatriz Reis</td>
-                        <td class="table-link">
-                            <a href="https://wa.me/5521980181397" target="_blank">Mensagem</a>
-                        </td>
-                        <td class="table-link">
-                            <a href="#" target="_blank">Conecte-se</a>
-                        </td>
-                        <td class="table-link">
-                            <a href="#" target="_blank">mais projetos</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-contact">Letícia Braga</td>
-                        <td class="table-link">
-                            <a href="https://wa.me/5521986956514" target="_blank">Mensagem</a>
-                        </td>
-                        <td class="table-link">
-                            <a href="#" target="_blank">Conecte-se</a>
-                        </td>
-                        <td class="table-link">
-                            <a href="#" target="_blank">mais projetos</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table-contact">Jonas Tavares</td>
-                        <td class="table-link">
-                            <a href="https://wa.me/5521974571187" target="_blank">Mensagem</a>
-                        </td>
-                        <td class="table-link">
-                            <a href="#" target="_blank">Conecte-se</a>
-                        </td>
-                        <td class="table-link">
-                            <a href="#" target="_blank">mais projetos</a>
                         </td>
                     </tr>
                 </tbody>
