@@ -120,8 +120,7 @@ main img {
     background-color: #F9F9F9;
     border: 2px solid var(--yellow);
     border-radius: 8px;
-    padding: 20px;
-    text-align: center;
+    text-align: left;
     transition: transform 0.3s ease;
 }
 
@@ -136,7 +135,8 @@ main img {
 .card img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-bottom: 2px solid var(--black);
+    border-radius: 0px;
 }
 
 .card h2 {
