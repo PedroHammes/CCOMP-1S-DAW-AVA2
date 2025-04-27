@@ -229,9 +229,10 @@ main img {
 form {
     margin: auto;
     width: 100%;
-    border: 2px solid var(--yellow);
+    border: 2px solid var(--white);
     padding: 16px;
     border-radius: 10px;
+    background-color: var(--yellow_3);
 
     display: flex;
     flex-direction: column;
@@ -250,26 +251,22 @@ form {
 
 }
 
-label {
-    
-}
-
 input {
     border: 2px solid var(--yellow);
-    background-color: var(--yellow_3);
+    background-color: var(--white);
     border-radius: 4px;
 }
 
 textarea {
     border: 2px solid var(--yellow);
-    background-color: var(--yellow_3);
+    background-color: var(--white);
     border-radius: 4px;
 }
 
 button {
     
     width: 100px;
-    background-color: var(--yellow_3);
+    background-color: var(--white);
     border: 2px solid var(--yellow);
     border-radius: 8px;
     padding: 4px;
@@ -287,8 +284,52 @@ button:hover {
     width: 110px;
     background-color: var(--yellow);
     border: 2px solid var(--yellow);
-    color: var(--white);
-    font-weight: 600;
+    color: var(--black);
 
     transition: 0.8s;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+    background-color: var(--white);
+
+    border-collapse: separate;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+tr {
+    line-height: 1.6;
+}
+
+tr:hover {
+    border-bottom: 2px solid var(--yellow);
+    transition: 0.8s;
+}
+
+tr:hover td {
+    border-bottom: 2px solid var(--yellow);
+}
+
+td {
+    border-bottom: 2px solid var(--white);
+}
+
+.table-link {
+    border-radius: 8px;
+}
+.table-link:hover {
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    background-color: var(--yellow_3);
+
+    transition: 0.8s;
+}
+
+td:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

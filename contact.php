@@ -36,6 +36,76 @@
                 Enviar
             </button>
         </form>
+
+        <section>
+            <h2>Contate nossa equipe</h2>
+            <table>
+                <caption>
+                    Membros:
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Colaborador</th>
+                        <th>WhatsApp</th>
+                        <th>LinkedIn</th>
+                        <th>GitHub</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="table-contact">Pedro Hammes</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521984540717" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://www.linkedin.com/in/pedrohammes/" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="https://github.com/PedroHammes" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-contact">Beatriz Reis</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521980181397" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="#" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="#" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-contact">Letícia Braga</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521986956514" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="#" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="#" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-contact">Jonas Tavares</td>
+                        <td class="table-link">
+                            <a href="https://wa.me/5521974571187" target="_blank">Mensagem</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="#" target="_blank">Conecte-se</a>
+                        </td>
+                        <td class="table-link">
+                            <a href="#" target="_blank">mais projetos</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+    </section>
     </main>
 
 
