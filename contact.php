@@ -15,9 +15,10 @@
         <a href="./news.php">Novidades</a>
         <a href="./contact.php">Contato</a>
     </nav>
-    <h1>Contato</h1>
 
-    <form action="send.php" method="POST">
+    <main>
+        <h1>Contato</h1>
+        <form action="send.php" method="POST">
 
             <div class="form-group">
                 <label for="name">Nome:</label>
@@ -35,5 +36,9 @@
                 Enviar
             </button>
         </form>
+    </main>
+
+
+
 </body>
 </html>

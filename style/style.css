@@ -83,6 +83,7 @@ nav a:hover {
 main {
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 32px;
 
     display: flex;
     flex-direction: column;
@@ -171,31 +172,6 @@ main img {
     background-color: #FF7E00;
 }
 
-/* Footer */
-.footer {
-    background-color: #000000;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-}
-
-/* Mensagens e Alertas */
-.alert, .success, .info {
-    margin: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    color: #FFFFFF;
-}
-
-.alert {
-    background-color: #A3140A;
-}
-
-.success {
-    background-color: #6ABC2A;
-}
-
 .info {
     background-color: #0589BB;
 }
@@ -252,6 +228,7 @@ main img {
 
 form {
     margin: auto;
+    width: 100%;
     border: 2px solid var(--yellow);
     padding: 16px;
     border-radius: 10px;

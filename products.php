@@ -35,6 +35,10 @@
             <section class="products">
                 <?php while($book = $query->fetch_assoc()): ?>
                 <div class="card">
+                    <img 
+                    src="<?php echo htmlspecialchars($book['img']); ?>"
+                    alt="Capa de <?php echo htmlspecialchars($book['title']); ?>"
+                    >
                     <h2>
                         <?php echo $book['title']?> - <?php echo $book['subtitle']?>
                     </h2>
